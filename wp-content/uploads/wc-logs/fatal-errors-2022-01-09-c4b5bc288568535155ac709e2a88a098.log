@@ -1,0 +1,96 @@
+2022-01-09T04:57:11+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, stdClass given in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php:184
+Stack trace:
+#0 C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php(184): json_decode(Object(stdClass))
+#1 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(305): your_login_function(Object(WP_Post))
+#2 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\innoshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\innoshop\wp-includes\class-wp-query.php(4322): do_action_ref_array('the_post', Array)
+#5 C:\xampp\htdocs\innoshop\wp-includes\class-wp-query.php(3330): WP_Query->setup_postdata(Object(WP_Post))
+#6 C:\xampp\htdocs\innoshop\wp-includes\query.php(979): WP_Query->the_post()
+#7 C:\xampp\htdocs\innoshop\wp-content\themes\twentytwenty\index.php(89): the_post()
+#8 C:\xampp\htdocs\innoshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\innoshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\innoshop\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php on line 184
+
+2022-01-09T04:57:58+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php:184
+Stack trace:
+#0 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(305): your_login_function(Object(WP_Post))
+#1 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\innoshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\innoshop\wp-includes\class-wp-query.php(4322): do_action_ref_array('the_post', Array)
+#4 C:\xampp\htdocs\innoshop\wp-includes\class-wp-query.php(3330): WP_Query->setup_postdata(Object(WP_Post))
+#5 C:\xampp\htdocs\innoshop\wp-includes\query.php(979): WP_Query->the_post()
+#6 C:\xampp\htdocs\innoshop\wp-content\themes\twentytwenty\index.php(89): the_post()
+#7 C:\xampp\htdocs\innoshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\innoshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\innoshop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php on line 184
+
+2022-01-09T04:59:19+00:00 CRITICAL Uncaught Error: Cannot use object of type stdClass as array in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php:184
+Stack trace:
+#0 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(305): your_login_function(Object(WP_Post))
+#1 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\innoshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\innoshop\wp-includes\class-wp-query.php(4322): do_action_ref_array('the_post', Array)
+#4 C:\xampp\htdocs\innoshop\wp-includes\class-wp-query.php(3330): WP_Query->setup_postdata(Object(WP_Post))
+#5 C:\xampp\htdocs\innoshop\wp-includes\query.php(979): WP_Query->the_post()
+#6 C:\xampp\htdocs\innoshop\wp-content\themes\twentytwenty\index.php(89): the_post()
+#7 C:\xampp\htdocs\innoshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\innoshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\innoshop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php on line 184
+
+2022-01-09T05:00:47+00:00 CRITICAL Uncaught ArgumentCountError: var_dump() expects at least 1 argument, 0 given in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php:185
+Stack trace:
+#0 C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php(185): var_dump()
+#1 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(305): your_login_function(Object(WP_Post))
+#2 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\innoshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\innoshop\wp-includes\class-wp-query.php(4322): do_action_ref_array('the_post', Array)
+#5 C:\xampp\htdocs\innoshop\wp-includes\class-wp-query.php(3330): WP_Query->setup_postdata(Object(WP_Post))
+#6 C:\xampp\htdocs\innoshop\wp-includes\query.php(979): WP_Query->the_post()
+#7 C:\xampp\htdocs\innoshop\wp-content\themes\twentytwenty\index.php(89): the_post()
+#8 C:\xampp\htdocs\innoshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\innoshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\innoshop\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php on line 185
+
+2022-01-09T05:30:20+00:00 CRITICAL Uncaught Error: Undefined constant "price" in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php:203
+Stack trace:
+#0 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(305): your_login_function(Object(WP_Post))
+#1 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\innoshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\innoshop\wp-includes\class-wp-query.php(4322): do_action_ref_array('the_post', Array)
+#4 C:\xampp\htdocs\innoshop\wp-includes\class-wp-query.php(3330): WP_Query->setup_postdata(Object(WP_Post))
+#5 C:\xampp\htdocs\innoshop\wp-includes\query.php(979): WP_Query->the_post()
+#6 C:\xampp\htdocs\innoshop\wp-content\themes\twentytwenty\index.php(89): the_post()
+#7 C:\xampp\htdocs\innoshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\innoshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\innoshop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php on line 203
+
+2022-01-09T09:29:28+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php:291
+Stack trace:
+#0 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(303): your_function('')
+#1 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#2 C:\xampp\htdocs\innoshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\innoshop\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#4 {main}
+  thrown in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php on line 291
+
+2022-01-09T09:29:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php:291
+Stack trace:
+#0 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(303): your_function('')
+#1 C:\xampp\htdocs\innoshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\innoshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\innoshop\wp-admin\admin.php(175): do_action('admin_init')
+#4 C:\xampp\htdocs\innoshop\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\innoshop\wp-content\plugins\redis\redis.php on line 291
+
